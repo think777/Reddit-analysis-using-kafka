@@ -4,7 +4,10 @@ import praw
 import pandas as pd
 
 
-
+r = praw.Reddit(client_id="",
+                client_secret="",
+                user_agent="",
+                )
 
 # Define Kafka producer configuration
 bootstrap_servers = ['localhost:9092']
